@@ -1,0 +1,1 @@
+nvidia-docker run -it --rm --gpus all -v $(pwd):/workspace/ -w /workspace torch

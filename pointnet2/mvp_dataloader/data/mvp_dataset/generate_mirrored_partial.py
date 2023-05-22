@@ -22,7 +22,7 @@ if __name__ == '__main__':
     # include_generated_samples=True 
     train = False
     benchmark = True
-    data_dir = './data/mvp_dataset'
+    data_dir = ''
     mirror_save_dir = 'mirror_and_concated_partial'
     os.makedirs(os.path.join(data_dir, mirror_save_dir), exist_ok=True)
     # generated_sample_path='generated_samples/T1000_betaT0.02_shape_completion_no_class_condition_scale_1_no_random_replace_partail_with_complete/ckpt_1403999'

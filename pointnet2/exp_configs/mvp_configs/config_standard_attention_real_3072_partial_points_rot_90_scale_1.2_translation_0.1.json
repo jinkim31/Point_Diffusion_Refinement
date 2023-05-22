@@ -103,7 +103,7 @@
         "novel_input": true,
         "novel_input_only": false,
         "scale": 1,
-        "batch_size": 32,
+        "batch_size": 1,
         "eval_batch_size": 200,
         "num_workers": 4,
         "num_samples_tested": 1600,
@@ -126,6 +126,6 @@
     },
     "dist_config": {
         "dist_backend": "nccl",
-        "CUDA_VISIBLE_DEVICES": "0,1,2,3,4,5,6,7"
+        "CUDA_VISIBLE_DEVICES": "0"
     }
 }

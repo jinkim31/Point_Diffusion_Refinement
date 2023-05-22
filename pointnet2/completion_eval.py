@@ -12,7 +12,7 @@ from util import rescale, find_max_epoch, print_size, sampling, calc_diffusion_h
 from util_fastdpmv2 import fast_sampling_function_v2
 
 torch_version = torch.__version__
-if torch_version == '1.7.1':
+if torch_version == '1.7.1' or '1.10.1':
     from models.pointnet2_ssg_sem import PointNet2SemSegSSG
     from models.pointnet2_with_pcld_condition import PointNet2CloudCondition
     from models.point_upsample_module import point_upsample
