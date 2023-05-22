@@ -4,7 +4,6 @@ $ ./docker/build.sh
 ```
 2. run container
 ```shell
-cd ..
 $ ./docker/run.sh
 ```
 3. run setup script
